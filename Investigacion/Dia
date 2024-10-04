@@ -1,0 +1,27 @@
+Investigación sobre las clases Date y Calendar
+Clase Date
+La clase Date en Java se utiliza para representar fechas y horas. Algunos de los métodos más comunes de la clase Date incluyen:
+
+Date(): Crea una nueva instancia de Date que representa la fecha y hora actuales.
+getTime(): Devuelve el número de milisegundos desde el 1 de enero de 1970, 00:00:00 GMT.
+setTime(long time): Establece la fecha y hora a la que representa la instancia de Date.
+toString(): Devuelve una representación legible de la fecha y hora.
+Sin embargo, la clase Date es mutable y tiene algunos problemas de diseño, por lo que se recomienda utilizar la clase Calendar o el paquete java.time en versiones de Java 8 y posteriores.
+
+Clase Calendar
+La clase Calendar es una clase abstracta que proporciona métodos para convertir entre un objeto Date y un conjunto de campos de calendario (como año, mes, día, etc.). Algunos de los métodos más comunes de la clase Calendar son:
+
+get(int field): Devuelve el valor del campo especificado.
+set(int field, int value): Establece el valor del campo especificado.
+add(int field, int amount): Suma o resta un valor a un campo específico.
+getInstance(): Devuelve una instancia de Calendar configurada con la fecha y hora actuales.
+getTime(): Devuelve un objeto Date que representa la fecha y hora actuales del calendario.
+
+
+
+¿Para qué se utiliza el CallableStatement?
+El CallableStatement se utiliza en JDBC para 
+ejecutar procedimientos almacenados y funciones en una base de datos.
+Este tipo de objeto permite invocar rutinas predefinidas 
+en el servidor de base de datos que pueden contener lógica 
+compleja, realizar operaciones en varias tablas o retornar valores como resultados o parámetros de salida.
